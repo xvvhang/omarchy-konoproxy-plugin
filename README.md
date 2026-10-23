@@ -96,20 +96,6 @@ the pinned core requires a reviewed plugin release and explicit reinstallation.
 The core's own upstream license applies; the plugin license does not relicense
 Mihomo. See [Mihomo](https://github.com/MetaCubeX/mihomo).
 
-## Just My Socks
-
-Use the service's **Subscription → Mihomo / Clash.Meta YAML** URL. Paste it in
-**Profiles**, enter a name, import it, and activate the resulting profile.
-
-JMS officially provides compatible Shadowsocks, VMess and VLESS Reality nodes,
-a **JMS** manual selector and a **JMS Auto** latency-based selector. Konoproxy
-preserves these groups. Clicking a node selects it directly. URLTest and Fallback
-groups support manual overrides internally; the node list does not expose separate
-policy-group controls. LoadBalance groups remain automatic. Legacy Base64 subscriptions are rejected with
-guidance rather than sent to an external conversion website.
-
-Reference: [JMS official Clash support announcement](https://justmysocks.net/members/index.php?rp=/announcements/34/Clash-support-added.html).
-
 ## System proxy, TUN and routing policy
 
 **System proxy** writes the desktop's HTTP, HTTPS and SOCKS proxy settings.
@@ -247,9 +233,9 @@ Results do not collide just because two profiles use the same node name.
 
 ### Exit regions, not guesses from names
 
-Mihomo's proxy API does not provide a standard country field. JMS names can be
+Mihomo's proxy API does not provide a standard region field. Node names can be
 opaque, and geolocating a server's DNS/ingress address does not necessarily identify
-its exit location. The UI therefore does not guess countries from node names.
+its exit location. The UI therefore does not guess regions from node names.
 
 Opening the panel automatically starts up to two temporary, unprivileged Mihomo
 instances to check configured nodes. Each node instance is reused for an HTTPS
