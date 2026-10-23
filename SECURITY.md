@@ -26,8 +26,8 @@ Omarchy and core versions, reproduction steps, and sanitized error messages.
   that identify a subscription or private network.
 
 The repository contains source and synthetic test fixtures, not production
-profiles or a bundled proxy binary. The preview is an illustration using fictional
-profile and node labels. Never copy runtime data into the checkout to prepare a report.
+profiles or a bundled proxy binary. The preview screenshot has its identifying
+node label anonymized. Never publish unredacted runtime data with a report.
 
 ## External requests
 

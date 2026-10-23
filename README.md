@@ -10,9 +10,9 @@ installation is required. Chinese documentation is available in
 
 ## Preview
 
-[<img src="preview.png" alt="Illustrative Konoproxy Home panel with fictional data and native monochrome proxy controls" width="480">](preview.png)
+[<img src="preview.png" alt="Konoproxy Home panel with the cat bar icon, traffic capture and proxy policy controls" width="480">](preview.png)
 
-Illustrative preview with fictional data; the live appearance follows your theme.
+Screenshot with the node label anonymized; appearance follows your Omarchy theme.
 
 ## Features
 

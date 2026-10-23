@@ -27,3 +27,6 @@ __pycache__/
 /providers/
 /mihomo
 /mihomo.gz
+
+# Original screenshot contains identifying node information; publish preview.png only.
+/konoproxy.png
