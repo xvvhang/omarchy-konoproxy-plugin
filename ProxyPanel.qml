@@ -199,7 +199,6 @@ Panel {
     }
 
     KeyboardPanel {
-        borderSpec: Border.flat(Qt.alpha(root.barForeground, 0.35), Style.normalBorderWidth)
         anchorItem: root.anchorItem
         bar: root.bar
         owner: root.hostWidget

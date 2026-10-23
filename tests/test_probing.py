@@ -165,6 +165,10 @@ class PanelProbeTests(unittest.TestCase):
 
 
 class PanelContractTests(unittest.TestCase):
+    def test_panel_inherits_native_theme_border(self):
+        source = (Path(b.__file__).parent / "ProxyPanel.qml").read_text()
+        self.assertNotIn("borderSpec:", source)
+
     def test_tabs_switch_options_and_commands_have_distinct_components(self):
         source = (Path(b.__file__).parent / "ProxyPanel.qml").read_text()
         self.assertIn("Controls.TabBar {", source)
