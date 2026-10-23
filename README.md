@@ -10,7 +10,7 @@ installation is required. Chinese documentation is available in
 
 ## Preview
 
-[<img src="preview.png" alt="Konoproxy Home panel with the cat bar icon, traffic capture and proxy policy controls" width="480">](preview.png)
+[<img src="preview.png?v=5d41affcdc93" alt="Konoproxy Home panel with the cat bar icon, traffic capture and proxy policy controls" width="480">](preview.png?v=5d41affcdc93)
 
 Screenshot with the node label anonymized; appearance follows your Omarchy theme.
 
