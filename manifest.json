@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "konochi.konoproxy",
+  "name": "Konoproxy",
+  "version": "0.1.0",
+  "author": "alec",
+  "license": "MIT",
+  "description": "A lightweight Mihomo client with explicit core setup, subscriptions, rules and node latency tests",
+  "kinds": ["service", "bar-widget"],
+  "entryPoints": {"service": "Service.qml", "barWidget": "Widget.qml"},
+  "barWidget": {
+    "displayName": "Konoproxy",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

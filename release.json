@@ -1,0 +1,13 @@
+{
+  "version": "v1.19.33",
+  "assets": {
+    "x86_64": {
+      "name": "mihomo-linux-amd64-compatible-v1.19.33.gz",
+      "sha256": "386508bfb1c72c43b6a0eda73708ecdce82546581b0ebcb16366c53757c622b6"
+    },
+    "aarch64": {
+      "name": "mihomo-linux-arm64-v1.19.33.gz",
+      "sha256": "ba408b317080ee265c46cb923a50018c1b82cbd708551cdd46a1e3e307396187"
+    }
+  }
+}
